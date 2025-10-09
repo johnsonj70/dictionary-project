@@ -5,7 +5,11 @@
 }
 
 .Meaning .example {
-  color: #70757a;
-  font-style: italic;
-  margin-top: 10px;
+    color: #70757a;
+    font-size: 13.5px;
+    font-style: italic;
+}
+
+.Meaning .definition {
+    color: blue;
 }
