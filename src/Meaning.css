@@ -1,15 +1,14 @@
 .Meaning h3 {
+  padding: 5px;
   font-size: 24px;
   line-height: 1.5;
-  font-weight: bold;
+  font-family: "Poppins";
+  color: #C04848;
 }
 
 .Meaning .example {
-    color: #70757a;
-    font-size: 13.5px;
-    font-style: italic;
-}
-
-.Meaning .definition {
-    color: blue;
+  color:#C04848;
+  font-family: "Poppins";
+  font-style: italic;
+  margin-top: 10px;
 }

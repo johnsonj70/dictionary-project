@@ -3,23 +3,27 @@
 }
 
 .Phonetic a {
-    border: 1px solid #ddd;
+    border: 1.5px solid #00223E;
     text-decoration: none;
+    font-family: "Poppins";
     font-size: 11px;
+    text-transform: uppercase;
     font-weight: 400;
     margin-right: 10px;
-    color: blueviolet;
+    color: #00223E;
     padding: 8px 15px;
     border-radius: 20px;
     transition: all 150ms ease-in-out;
 }
 
 .Phonetic a:hover {
-    background-color: #9670f4;
+    background-color: #00223E;
     color: white;
 }
 
 .Phonetic .text {
-    opacity: 0.5;
+    font-family: "Poppins";
+    color:#C04848;
+    opacity: 0.8;
     font-weight: 400;
 }

@@ -1,11 +1,12 @@
 .Synonyms {
-    margin: 20px 0 0;
-    padding: 0;
+  margin: 15px 0 0;
+  padding: 0;
 }
 
-.Synonyms .synonym-li {
-    font-size: 13px;
-    display: inline-block;
-    padding-right: 10px;
-    line-height: 1;
+.Synonyms li {
+  font-size: 13px;
+  font-family: "Poppins";
+  display: inline-block;
+  padding-right: 10px;
+  line-height: 1;
 }

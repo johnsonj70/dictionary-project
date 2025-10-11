@@ -1,0 +1,19 @@
+.Photos img {
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Photos .container {
+    display: grid;
+    max-width: 700px;
+    text-align: center;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.Photos .card {
+    width: auto;
+}
