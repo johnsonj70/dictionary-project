@@ -6,7 +6,18 @@
 .Synonyms li {
   font-size: 13px;
   font-family: "Poppins";
+  text-transform: uppercase;
+  border: 1.5px solid #00223E;
+  border-radius: 8px;
+  margin-left: 0;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  font-style: normal;
   display: inline-block;
   padding-right: 10px;
   line-height: 1;
+}
+
+.Synonyms span li {
+  border: 1px solid #C04848; padding: 10px;
 }
