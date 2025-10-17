@@ -1,13 +1,13 @@
 body {
   background: #FFA17F;
   background: linear-gradient(
-    to right,
+    to top,
     #FFA17F,#00223E
-  );
+  )
 }
 
 a {
-  color: white;
+  color: #00223E;
   font-family: "Poppins";
 }
 
@@ -25,14 +25,15 @@ a {
 }
 
 .App-logo {
-  max-width: 200px;
+  color: #00223E;
+  max-width: 50px;
   display: block;
   margin: 0 auto;
 }
 
 .App-footer {
   font-family: "Poppins";
-  color: white;
+  color: #00223E;
   text-align: center;
   margin: 30px 0;
 }

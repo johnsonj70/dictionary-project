@@ -25,7 +25,7 @@ export default function Dictionary(props) {
     //API call for word and associated images
     function search () {
         // documentation: https://dictionaryapi.dev/e
-        let apiKey = "00a6bfb9b6053b4664t55oaa8c181e51"
+        let apiKey = "00a6bfb9b6053b4664t55oaa8c181e51";
         let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyWord}&key=${apiKey}`;
         axios.get(apiUrl).then(handleDictionaryResponse);
 
