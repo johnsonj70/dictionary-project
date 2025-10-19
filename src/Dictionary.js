@@ -14,7 +14,7 @@ export default function Dictionary(props) {
     //Set word state
     function handleDictionaryResponse(response) {
         //This line differs from Matt's code
-        setResults(response.data[0]);
+        setResults(response.data);
     }
     //Set photos state
 
